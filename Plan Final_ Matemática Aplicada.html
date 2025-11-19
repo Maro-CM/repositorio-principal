@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://127.0.0.1:5500/Mis%20proyectos/puebas%20webs.html -->
+<html lang="es" class="light dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Final: Matemática Aplicada</title>
+    
+    <!-- Tailwind CSS para estilos -->
+    <script src="./Plan Final_ Matemática Aplicada_files/saved_resource"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            bg: '#0f172a', // slate-950
+                            card: '#1e293b', // slate-800
+                            border: '#334155', // slate-700
+                            text: '#f1f5f9', // slate-100
+                            muted: '#94a3b8' // slate-400
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Iconos Lucide -->
+    <script src="./Plan Final_ Matemática Aplicada_files/lucide@latest"></script>
+    
+    <!-- Configuración de fuentes -->
+    <link href="./Plan Final_ Matemática Aplicada_files/css2" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Outfit', sans-serif; }
+        /* Animaciones suaves */
+        .transition-all { transition-property: all; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; }
+        
+        /* Scrollbar personalizado */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        .dark ::-webkit-scrollbar-thumb { background: #475569; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+        
+        /* Efecto Glow en Dark Mode */
+        .dark .glow-effect { box-shadow: 0 0 15px rgba(99, 102, 241, 0.15); }
+        .dark .glow-text { text-shadow: 0 0 10px rgba(255,255,255,0.1); }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.top-0{top:0px}.z-10{z-index:10}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-1\.5{margin-bottom:0.375rem}.mb-2{margin-bottom:0.5rem}.mb-8{margin-bottom:2rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mt-auto{margin-top:auto}.line-clamp-2{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-2{height:0.5rem}.h-3{height:0.75rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-full{height:100%}.h-1\.5{height:0.375rem}.max-h-\[90vh\]{max-height:90vh}.w-3{width:0.75rem}.w-48{width:12rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-6xl{max-width:72rem}.flex-1{flex:1 1 0%}.scale-95{--tw-scale-x:.95;--tw-scale-y:.95;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:0.25rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.overflow-hidden{overflow:hidden}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229 / var(--tw-bg-opacity, 1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-900\/60{background-color:rgb(15 23 42 / 0.6)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/80{background-color:rgb(255 255 255 / 0.8)}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-500{--tw-gradient-from:#10b981 var(--tw-gradient-from-position);--tw-gradient-to:rgb(16 185 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-500{--tw-gradient-from:#6366f1 var(--tw-gradient-from-position);--tw-gradient-to:rgb(99 102 241 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-500{--tw-gradient-from:#ec4899 var(--tw-gradient-from-position);--tw-gradient-to:rgb(236 72 153 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-500{--tw-gradient-from:#8b5cf6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(139 92 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-600{--tw-gradient-to:#2563eb var(--tw-gradient-to-position)}.to-cyan-500{--tw-gradient-to:#06b6d4 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.p-2{padding:0.5rem}.p-2\.5{padding:0.625rem}.p-4{padding:1rem}.p-0{padding:0px}.p-6{padding:1.5rem}.px-4{padding-left:1rem;padding-right:1rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.pb-20{padding-bottom:5rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-light{font-weight:300}.uppercase{text-transform:uppercase}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.tracking-wide{letter-spacing:0.025em}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.opacity-0{opacity:0}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-\[0_0_10px_rgba\(99\2c 102\2c 241\2c 0\.5\)\]{--tw-shadow:0 0 10px rgba(99,102,241,0.5);--tw-shadow-colored:0 0 10px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-indigo-500\/30{--tw-shadow-color:rgb(99 102 241 / 0.3);--tw-shadow:var(--tw-shadow-colored)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.duration-700{transition-duration:700ms}.ease-out{transition-timing-function:cubic-bezier(0, 0, 0.2, 1)}.selection\:bg-indigo-500 *::selection{--tw-bg-opacity:1;background-color:rgb(99 102 241 / var(--tw-bg-opacity, 1))}.selection\:text-white *::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.selection\:bg-indigo-500::selection{--tw-bg-opacity:1;background-color:rgb(99 102 241 / var(--tw-bg-opacity, 1))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:-translate-y-1:hover{--tw-translate-y:-0.25rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:border-indigo-400:hover{--tw-border-opacity:1;border-color:rgb(129 140 248 / var(--tw-border-opacity, 1))}.hover\:bg-slate-200:hover{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.hover\:text-red-500:hover{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.hover\:shadow-xl:hover{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.group:hover .group-hover\:bg-indigo-50{--tw-bg-opacity:1;background-color:rgb(238 242 255 / var(--tw-bg-opacity, 1))}.group:hover .group-hover\:text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229 / var(--tw-text-opacity, 1))}.dark\:block:is(.dark *){display:block}.dark\:hidden:is(.dark *){display:none}.dark\:border-slate-800:is(.dark *){--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.dark\:border-slate-700:is(.dark *){--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.dark\:bg-slate-950:is(.dark *){--tw-bg-opacity:1;background-color:rgb(2 6 23 / var(--tw-bg-opacity, 1))}.dark\:bg-black\/80:is(.dark *){background-color:rgb(0 0 0 / 0.8)}.dark\:bg-indigo-500:is(.dark *){--tw-bg-opacity:1;background-color:rgb(99 102 241 / var(--tw-bg-opacity, 1))}.dark\:bg-slate-800:is(.dark *){--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.dark\:bg-slate-900:is(.dark *){--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.dark\:bg-slate-900\/80:is(.dark *){background-color:rgb(15 23 42 / 0.8)}.dark\:bg-slate-700:is(.dark *){--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.dark\:text-slate-100:is(.dark *){--tw-text-opacity:1;color:rgb(241 245 249 / var(--tw-text-opacity, 1))}.dark\:text-indigo-400:is(.dark *){--tw-text-opacity:1;color:rgb(129 140 248 / var(--tw-text-opacity, 1))}.dark\:text-slate-300:is(.dark *){--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.dark\:text-slate-400:is(.dark *){--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.dark\:text-slate-500:is(.dark *){--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.dark\:text-white:is(.dark *){--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.dark\:text-slate-600:is(.dark *){--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.dark\:shadow-slate-950\/50:is(.dark *){--tw-shadow-color:rgb(2 6 23 / 0.5);--tw-shadow:var(--tw-shadow-colored)}.dark\:hover\:border-indigo-500:hover:is(.dark *){--tw-border-opacity:1;border-color:rgb(99 102 241 / var(--tw-border-opacity, 1))}.dark\:hover\:bg-slate-700:hover:is(.dark *){--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.dark\:hover\:text-red-400:hover:is(.dark *){--tw-text-opacity:1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.dark\:hover\:shadow-slate-900\/50:hover:is(.dark *){--tw-shadow-color:rgb(15 23 42 / 0.5);--tw-shadow:var(--tw-shadow-colored)}.group:hover .dark\:group-hover\:bg-slate-700:is(.dark *){--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.group:hover .dark\:group-hover\:text-indigo-400:is(.dark *){--tw-text-opacity:1;color:rgb(129 140 248 / var(--tw-text-opacity, 1))}@media (min-width: 640px){.sm\:flex{display:flex}}@media (min-width: 768px){.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}@media (min-width: 1024px){.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}}</style></head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300 pb-20 selection:bg-indigo-500 selection:text-white">
+
+    <!-- Navbar / Header Principal -->
+    <div class="bg-white/80 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-800 sticky top-0 z-10 backdrop-blur-md transition-colors duration-300">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <div class="bg-indigo-600 dark:bg-indigo-500 p-2.5 rounded-xl text-white shadow-lg shadow-indigo-500/30">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="graduation-cap" class="lucide lucide-graduation-cap w-6 h-6"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path><path d="M22 10v6"></path><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path></svg>
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold text-slate-900 dark:text-white leading-tight tracking-tight">Matemática Aplicada</h1>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 font-medium uppercase tracking-wider">Plan Final • Mauro Algañaraz</p>
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-6">
+                <!-- Barra de progreso general -->
+                <div class="hidden sm:flex flex-col items-end w-48">
+                    <div class="text-xs font-bold text-indigo-600 dark:text-indigo-400 mb-1.5 flex justify-between w-full">
+                        <span>Progreso Total</span>
+                        <span id="total-progress-text">8%</span>
+                    </div>
+                    <div class="w-full h-2 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
+                        <div id="total-progress-bar" class="h-full bg-indigo-600 dark:bg-indigo-500 transition-all duration-700 ease-out shadow-[0_0_10px_rgba(99,102,241,0.5)]" style="width: 8%;"></div>
+                    </div>
+                </div>
+
+                <!-- Toggle Dark Mode -->
+                <button onclick="toggleTheme()" class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="moon" class="lucide lucide-moon w-5 h-5 hidden dark:block"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sun" class="lucide lucide-sun w-5 h-5 block dark:hidden"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grid de Días -->
+    <div class="max-w-6xl mx-auto px-4 py-10">
+        <div class="flex justify-between items-end mb-8">
+            <div>
+                <h2 class="text-3xl font-bold text-slate-800 dark:text-white mb-2">Tu Ruta de Estudio</h2>
+                <p class="text-slate-500 dark:text-slate-400">Sigue el plan paso a paso para dominar el examen.</p>
+            </div>
+            <button onclick="resetProgress()" class="text-xs font-medium text-slate-400 hover:text-red-500 dark:text-slate-500 dark:hover:text-red-400 transition-colors flex items-center gap-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="rotate-ccw" class="lucide lucide-rotate-ccw w-3 h-3"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path></svg> Reiniciar
+            </button>
+        </div>
+
+        <div id="days-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"><div class="
+                    relative bg-white dark:bg-slate-800 rounded-2xl p-0
+                    border border-slate-200 dark:border-slate-700 
+                    hover:border-indigo-400 dark:hover:border-indigo-500 hover:shadow-xl dark:hover:shadow-slate-900/50 
+                    hover:-translate-y-1 transition-all duration-300 cursor-pointer group overflow-hidden flex flex-col h-full
+                ">
+                    <div class="h-1.5 w-full bg-gradient-to-r from-blue-500 to-cyan-500"></div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <div class="flex justify-between items-start mb-4">
+                            <span class="px-2.5 py-1 rounded-md text-xs font-bold uppercase tracking-wide bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-300 group-hover:bg-indigo-50 group-hover:text-indigo-600 dark:group-hover:bg-slate-700 dark:group-hover:text-indigo-400 transition-colors">
+                                Día 1
+                            </span>
+                            <div class="text-slate-300 dark:text-slate-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="circle" class="lucide lucide-circle w-5 h-5"><circle cx="12" cy="12" r="10"></circle></svg></div>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                            El Mundo de las Matrices
+                        </h3>
+                        
+                        <p class="text-sm text-slate-500 dark:text-slate-400 mb-6 line-clamp-2 font-light">
+                            Escribe 3 matrices de distintos tamaños. Suma y multiplica las que se puedan. Verifica la traspuesta.
+                        </p>
+
+                        <div class="mt-auto">
+                            <div class="flex justify-between text-xs mb-2 font-medium text-slate-400 dark:text-slate-500">
+                                <span>Avance</span>
+                                <span class="">50%</span>
+                            </div>
+                            <div class="w-full h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full rounded-full transition-all duration-700 bg-gradient-to-r from-blue-500 to-cyan-500" style="width: 50%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="
+                    relative bg-white dark:bg-slate-800 rounded-2xl p-0
+                    border border-slate-200 dark:border-slate-700 
+                    hover:border-indigo-400 dark:hover:border-indigo-500 hover:shadow-xl dark:hover:shadow-slate-900/50 
+                    hover:-translate-y-1 transition-all duration-300 cursor-pointer group overflow-hidden flex flex-col h-full
+                ">
+                    <div class="h-1.5 w-full bg-gradient-to-r from-violet-500 to-purple-500"></div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <div class="flex justify-between items-start mb-4">
+                            <span class="px-2.5 py-1 rounded-md text-xs font-bold uppercase tracking-wide bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-300 group-hover:bg-indigo-50 group-hover:text-indigo-600 dark:group-hover:bg-slate-700 dark:group-hover:text-indigo-400 transition-colors">
+                                Día 2
+                            </span>
+                            <div class="text-slate-300 dark:text-slate-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="circle" class="lucide lucide-circle w-5 h-5"><circle cx="12" cy="12" r="10"></circle></svg></div>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                            Determinantes e Inversas
+                        </h3>
+                        
+                        <p class="text-sm text-slate-500 dark:text-slate-400 mb-6 line-clamp-2 font-light">
+                            Calcula el determinante de una matriz 3x3. Si no es 0, halla su inversa y verifica A * A^-1 = I.
+                        </p>
+
+                        <div class="mt-auto">
+                            <div class="flex justify-between text-xs mb-2 font-medium text-slate-400 dark:text-slate-500">
+                                <span>Avance</span>
+                                <span class="">0%</span>
+                            </div>
+                            <div class="w-full h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full rounded-full transition-all duration-700 bg-gradient-to-r from-violet-500 to-purple-500" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="
+                    relative bg-white dark:bg-slate-800 rounded-2xl p-0
+                    border border-slate-200 dark:border-slate-700 
+                    hover:border-indigo-400 dark:hover:border-indigo-500 hover:shadow-xl dark:hover:shadow-slate-900/50 
+                    hover:-translate-y-1 transition-all duration-300 cursor-pointer group overflow-hidden flex flex-col h-full
+                ">
+                    <div class="h-1.5 w-full bg-gradient-to-r from-pink-500 to-rose-500"></div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <div class="flex justify-between items-start mb-4">
+                            <span class="px-2.5 py-1 rounded-md text-xs font-bold uppercase tracking-wide bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-300 group-hover:bg-indigo-50 group-hover:text-indigo-600 dark:group-hover:bg-slate-700 dark:group-hover:text-indigo-400 transition-colors">
+                                Día 3
+                            </span>
+                            <div class="text-slate-300 dark:text-slate-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="circle" class="lucide lucide-circle w-5 h-5"><circle cx="12" cy="12" r="10"></circle></svg></div>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                            Vectores R2 y R3
+                        </h3>
+                        
+                        <p class="text-sm text-slate-500 dark:text-slate-400 mb-6 line-clamp-2 font-light">
+                            Inventa dos vectores en R3. Calcula su suma, resta y el ángulo entre ellos.
+                        </p>
+
+                        <div class="mt-auto">
+                            <div class="flex justify-between text-xs mb-2 font-medium text-slate-400 dark:text-slate-500">
+                                <span>Avance</span>
+                                <span class="">0%</span>
+                            </div>
+                            <div class="w-full h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full rounded-full transition-all duration-700 bg-gradient-to-r from-pink-500 to-rose-500" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="
+                    relative bg-white dark:bg-slate-800 rounded-2xl p-0
+                    border border-slate-200 dark:border-slate-700 
+                    hover:border-indigo-400 dark:hover:border-indigo-500 hover:shadow-xl dark:hover:shadow-slate-900/50 
+                    hover:-translate-y-1 transition-all duration-300 cursor-pointer group overflow-hidden flex flex-col h-full
+                ">
+                    <div class="h-1.5 w-full bg-gradient-to-r from-orange-500 to-amber-500"></div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <div class="flex justify-between items-start mb-4">
+                            <span class="px-2.5 py-1 rounded-md text-xs font-bold uppercase tracking-wide bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-300 group-hover:bg-indigo-50 group-hover:text-indigo-600 dark:group-hover:bg-slate-700 dark:group-hover:text-indigo-400 transition-colors">
+                                Día 4
+                            </span>
+                            <div class="text-slate-300 dark:text-slate-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="circle" class="lucide lucide-circle w-5 h-5"><circle cx="12" cy="12" r="10"></circle></svg></div>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                            Sistemas de Ecuaciones
+                        </h3>
+                        
+                        <p class="text-sm text-slate-500 dark:text-slate-400 mb-6 line-clamp-2 font-light">
+                            Resuelve el problema de los programadores (Clase 4) cambiando los costos horarios.
+                        </p>
+
+                        <div class="mt-auto">
+                            <div class="flex justify-between text-xs mb-2 font-medium text-slate-400 dark:text-slate-500">
+                                <span>Avance</span>
+                                <span class="">0%</span>
+                            </div>
+                            <div class="w-full h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full rounded-full transition-all duration-700 bg-gradient-to-r from-orange-500 to-amber-500" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="
+                    relative bg-white dark:bg-slate-800 rounded-2xl p-0
+                    border border-slate-200 dark:border-slate-700 
+                    hover:border-indigo-400 dark:hover:border-indigo-500 hover:shadow-xl dark:hover:shadow-slate-900/50 
+                    hover:-translate-y-1 transition-all duration-300 cursor-pointer group overflow-hidden flex flex-col h-full
+                ">
+                    <div class="h-1.5 w-full bg-gradient-to-r from-emerald-500 to-teal-500"></div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <div class="flex justify-between items-start mb-4">
+                            <span class="px-2.5 py-1 rounded-md text-xs font-bold uppercase tracking-wide bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-300 group-hover:bg-indigo-50 group-hover:text-indigo-600 dark:group-hover:bg-slate-700 dark:group-hover:text-indigo-400 transition-colors">
+                                Día 5
+                            </span>
+                            <div class="text-slate-300 dark:text-slate-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="circle" class="lucide lucide-circle w-5 h-5"><circle cx="12" cy="12" r="10"></circle></svg></div>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                            Espacios Vectoriales
+                        </h3>
+                        
+                        <p class="text-sm text-slate-500 dark:text-slate-400 mb-6 line-clamp-2 font-light">
+                            Demuestra si un conjunto dado es un subespacio vectorial verificando las 3 leyes.
+                        </p>
+
+                        <div class="mt-auto">
+                            <div class="flex justify-between text-xs mb-2 font-medium text-slate-400 dark:text-slate-500">
+                                <span>Avance</span>
+                                <span class="">0%</span>
+                            </div>
+                            <div class="w-full h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full rounded-full transition-all duration-700 bg-gradient-to-r from-emerald-500 to-teal-500" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="
+                    relative bg-white dark:bg-slate-800 rounded-2xl p-0
+                    border border-slate-200 dark:border-slate-700 
+                    hover:border-indigo-400 dark:hover:border-indigo-500 hover:shadow-xl dark:hover:shadow-slate-900/50 
+                    hover:-translate-y-1 transition-all duration-300 cursor-pointer group overflow-hidden flex flex-col h-full
+                ">
+                    <div class="h-1.5 w-full bg-gradient-to-r from-indigo-500 to-blue-600"></div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <div class="flex justify-between items-start mb-4">
+                            <span class="px-2.5 py-1 rounded-md text-xs font-bold uppercase tracking-wide bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-300 group-hover:bg-indigo-50 group-hover:text-indigo-600 dark:group-hover:bg-slate-700 dark:group-hover:text-indigo-400 transition-colors">
+                                Día 6
+                            </span>
+                            <div class="text-slate-300 dark:text-slate-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="circle" class="lucide lucide-circle w-5 h-5"><circle cx="12" cy="12" r="10"></circle></svg></div>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                            Base e Integración
+                        </h3>
+                        
+                        <p class="text-sm text-slate-500 dark:text-slate-400 mb-6 line-clamp-2 font-light">
+                            Realizar un examen de práctica mezclando matrices, SEL y espacios vectoriales.
+                        </p>
+
+                        <div class="mt-auto">
+                            <div class="flex justify-between text-xs mb-2 font-medium text-slate-400 dark:text-slate-500">
+                                <span>Avance</span>
+                                <span class="">0%</span>
+                            </div>
+                            <div class="w-full h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full rounded-full transition-all duration-700 bg-gradient-to-r from-indigo-500 to-blue-600" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+    </div>
+
+    <!-- Modal de Detalle -->
+    <div id="modal-overlay" class="hidden fixed inset-0 bg-slate-900/60 dark:bg-black/80 flex items-center justify-center p-4 z-50 backdrop-blur-sm transition-all duration-300">
+        <div id="modal-content" class="bg-white dark:bg-slate-900 w-full max-w-2xl rounded-2xl shadow-2xl dark:shadow-slate-950/50 overflow-hidden flex flex-col max-h-[90vh] transform scale-95 opacity-0 transition-all duration-300 border border-slate-100 dark:border-slate-800">
+            <!-- El contenido del modal se inyectará aquí -->
+        </div>
+    </div>
+
+    <script>
+        // ==========================================
+        // CONFIGURACIÓN DE TEMA (Dark Mode)
+        // ==========================================
+        function loadTheme() {
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        }
+
+        function toggleTheme() {
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.theme = 'light';
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.theme = 'dark';
+            }
+        }
+        
+        loadTheme();
+
+        // ==========================================
+        // DATOS INICIALES
+        // ==========================================
+        const defaultPlan = [
+          {
+            id: 1,
+            day: "Día 1",
+            title: "El Mundo de las Matrices",
+            color: "from-blue-500 to-cyan-500",
+            border: "border-blue-500",
+            textAccent: "text-blue-500 dark:text-blue-400",
+            bgAccent: "bg-blue-50 dark:bg-blue-900/20",
+            topics: [
+              { id: 't1-1', text: "Concepto, orden y tipos de matrices (Clase 1)", completed: false },
+              { id: 't1-2', text: "Suma, Resta y Multiplicación (Condiciones)", completed: false },
+              { id: 't1-3', text: "Propiedades básicas (Conmutativa, Asociativa)", completed: false },
+              { id: 't1-4', text: "Matriz Transpuesta y sus propiedades", completed: false }
+            ],
+            activity: "Escribe 3 matrices de distintos tamaños. Suma y multiplica las que se puedan. Verifica la traspuesta.",
+            notes: ""
+          },
+          {
+            id: 2,
+            day: "Día 2",
+            title: "Determinantes e Inversas",
+            color: "from-violet-500 to-purple-500",
+            border: "border-violet-500",
+            textAccent: "text-violet-500 dark:text-violet-400",
+            bgAccent: "bg-violet-50 dark:bg-violet-900/20",
+            topics: [
+              { id: 't2-1', text: "Determinantes 2x2 y 3x3 (Sarrus)", completed: false },
+              { id: 't2-2', text: "Determinantes 4x4 (Gauss)", completed: false },
+              { id: 't2-3', text: "Definición de Matriz Inversible", completed: false },
+              { id: 't2-4', text: "Cálculo de Inversa (Si Det != 0)", completed: false }
+            ],
+            activity: "Calcula el determinante de una matriz 3x3. Si no es 0, halla su inversa y verifica A * A^-1 = I.",
+            notes: ""
+          },
+          {
+            id: 3,
+            day: "Día 3",
+            title: "Vectores R2 y R3",
+            color: "from-pink-500 to-rose-500",
+            border: "border-pink-500",
+            textAccent: "text-pink-500 dark:text-pink-400",
+            bgAccent: "bg-pink-50 dark:bg-pink-900/20",
+            topics: [
+              { id: 't3-1', text: "Gráfica de vectores en R2 y R3", completed: false },
+              { id: 't3-2', text: "Operaciones: Suma, Resta, Escalar", completed: false },
+              { id: 't3-3', text: "Producto Punto y Ángulos", completed: false },
+              { id: 't3-4', text: "Condición de Ortogonalidad", completed: false }
+            ],
+            activity: "Inventa dos vectores en R3. Calcula su suma, resta y el ángulo entre ellos.",
+            notes: ""
+          },
+          {
+            id: 4,
+            day: "Día 4",
+            title: "Sistemas de Ecuaciones",
+            color: "from-orange-500 to-amber-500",
+            border: "border-orange-500",
+            textAccent: "text-orange-500 dark:text-orange-400",
+            bgAccent: "bg-orange-50 dark:bg-orange-900/20",
+            topics: [
+              { id: 't4-1', text: "Clasificación (Compatible/Incompatible)", completed: false },
+              { id: 't4-2', text: "Regla de Cramer (Determinantes)", completed: false },
+              { id: 't4-3', text: "Método de Gauss (Filas)", completed: false },
+              { id: 't4-4', text: "Resolución de problemas aplicados", completed: false }
+            ],
+            activity: "Resuelve el problema de los programadores (Clase 4) cambiando los costos horarios.",
+            notes: ""
+          },
+          {
+            id: 5,
+            day: "Día 5",
+            title: "Espacios Vectoriales",
+            color: "from-emerald-500 to-teal-500",
+            border: "border-emerald-500",
+            textAccent: "text-emerald-500 dark:text-emerald-400",
+            bgAccent: "bg-emerald-50 dark:bg-emerald-900/20",
+            topics: [
+              { id: 't5-1', text: "Subespacio Vectorial (3 condiciones)", completed: false },
+              { id: 't5-2', text: "Concepto de Combinación Lineal", completed: false },
+              { id: 't5-3', text: "Dependencia e Independencia Lineal", completed: false },
+              { id: 't5-4', text: "Espacio Generado", completed: false }
+            ],
+            activity: "Demuestra si un conjunto dado es un subespacio vectorial verificando las 3 leyes.",
+            notes: ""
+          },
+          {
+            id: 6,
+            day: "Día 6",
+            title: "Base e Integración",
+            color: "from-indigo-500 to-blue-600",
+            border: "border-indigo-500",
+            textAccent: "text-indigo-500 dark:text-indigo-400",
+            bgAccent: "bg-indigo-50 dark:bg-indigo-900/20",
+            topics: [
+              { id: 't6-1', text: "Definición de Base (Generador + LI)", completed: false },
+              { id: 't6-2', text: "Cálculo de Dimensión", completed: false },
+              { id: 't6-3', text: "Repaso General de Unidades 1-6", completed: false },
+              { id: 't6-4', text: "Simulacro de Examen", completed: false }
+            ],
+            activity: "Realizar un examen de práctica mezclando matrices, SEL y espacios vectoriales.",
+            notes: ""
+          }
+        ];
+
+        // ==========================================
+        // LÓGICA DE LA APP
+        // ==========================================
+        let plan = [];
+        let currentDayId = null;
+        let isEditing = false;
+
+        function loadData() {
+            const saved = localStorage.getItem('studyTrackerData_Mauro_v3');
+            if (saved) {
+                plan = JSON.parse(saved);
+            } else {
+                plan = JSON.parse(JSON.stringify(defaultPlan));
+            }
+            renderApp();
+        }
+
+        // FIX: Función SaveData mejorada.
+        // acepta un parámetro 'render' (default true).
+        // Si es false, guarda en localStorage pero NO redibuja la UI.
+        function saveData(render = true) {
+            localStorage.setItem('studyTrackerData_Mauro_v3', JSON.stringify(plan));
+            if (render) {
+                renderApp();
+            }
+        }
+
+        function resetProgress() {
+            if(confirm("¿Reiniciar todo el progreso? Esta acción es irreversible.")) {
+                plan = JSON.parse(JSON.stringify(defaultPlan));
+                saveData(true);
+            }
+        }
+
+        // ==========================================
+        // RENDERIZADO
+        // ==========================================
+        function renderApp() {
+            renderHeaderStats();
+            renderGrid();
+            // Solo renderizar modal si está abierto.
+            if (currentDayId !== null) {
+                renderModalContent();
+            }
+            lucide.createIcons();
+        }
+
+        function renderHeaderStats() {
+            const totalTopics = plan.reduce((acc, day) => acc + day.topics.length, 0);
+            const completedTopics = plan.reduce((acc, day) => acc + day.topics.filter(t => t.completed).length, 0);
+            const percent = totalTopics === 0 ? 0 : Math.round((completedTopics / totalTopics) * 100);
+
+            document.getElementById('total-progress-text').textContent = `${percent}%`;
+            document.getElementById('total-progress-bar').style.width = `${percent}%`;
+        }
+
+        function renderGrid() {
+            const container = document.getElementById('days-grid');
+            // Guardamos la posición del scroll antes de redibujar si fuera necesario, aunque aquí se redibuja todo el grid.
+            container.innerHTML = '';
+
+            plan.forEach(day => {
+                const completedCount = day.topics.filter(t => t.completed).length;
+                const totalCount = day.topics.length;
+                const progress = totalCount === 0 ? 0 : (completedCount / totalCount) * 100;
+                const isDone = progress === 100;
+
+                const card = document.createElement('div');
+                card.className = `
+                    relative bg-white dark:bg-slate-800 rounded-2xl p-0
+                    border border-slate-200 dark:border-slate-700 
+                    hover:border-indigo-400 dark:hover:border-indigo-500 hover:shadow-xl dark:hover:shadow-slate-900/50 
+                    hover:-translate-y-1 transition-all duration-300 cursor-pointer group overflow-hidden flex flex-col h-full
+                `;
+                card.onclick = () => openModal(day.id);
+
+                card.innerHTML = `
+                    <div class="h-1.5 w-full bg-gradient-to-r ${day.color}"></div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <div class="flex justify-between items-start mb-4">
+                            <span class="px-2.5 py-1 rounded-md text-xs font-bold uppercase tracking-wide bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-300 group-hover:bg-indigo-50 group-hover:text-indigo-600 dark:group-hover:bg-slate-700 dark:group-hover:text-indigo-400 transition-colors">
+                                ${day.day}
+                            </span>
+                            ${isDone 
+                                ? '<div class="bg-emerald-500/10 dark:bg-emerald-500/20 p-1 rounded-full"><i data-lucide="check" class="w-4 h-4 text-emerald-500 dark:text-emerald-400"></i></div>' 
+                                : `<div class="text-slate-300 dark:text-slate-600"><i data-lucide="circle" class="w-5 h-5"></i></div>`
+                            }
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                            ${day.title}
+                        </h3>
+                        
+                        <p class="text-sm text-slate-500 dark:text-slate-400 mb-6 line-clamp-2 font-light">
+                            ${day.activity}
+                        </p>
+
+                        <div class="mt-auto">
+                            <div class="flex justify-between text-xs mb-2 font-medium text-slate-400 dark:text-slate-500">
+                                <span>Avance</span>
+                                <span class="${isDone ? 'text-emerald-500' : ''}">${Math.round(progress)}%</span>
+                            </div>
+                            <div class="w-full h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                <div class="h-full rounded-full transition-all duration-700 bg-gradient-to-r ${isDone ? 'from-emerald-400 to-emerald-500' : day.color}" style="width: ${progress}%"></div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // ==========================================
+        // MODAL LOGIC
+        // ==========================================
+        function openModal(dayId) {
+            currentDayId = dayId;
+            isEditing = false;
+            const overlay = document.getElementById('modal-overlay');
+            const content = document.getElementById('modal-content');
+            
+            overlay.classList.remove('hidden');
+            setTimeout(() => {
+                content.classList.remove('scale-95', 'opacity-0');
+                content.classList.add('scale-100', 'opacity-100');
+            }, 10);
+
+            renderModalContent();
+        }
+
+        function closeModal() {
+            // Al cerrar, renderizamos todo para asegurar que el grid y barras de progreso se actualicen con lo último editado
+            renderApp(); 
+            
+            const overlay = document.getElementById('modal-overlay');
+            const content = document.getElementById('modal-content');
+
+            content.classList.remove('scale-100', 'opacity-100');
+            content.classList.add('scale-95', 'opacity-0');
+            
+            setTimeout(() => {
+                overlay.classList.add('hidden');
+                currentDayId = null;
+            }, 300);
+        }
+
+        document.getElementById('modal-overlay').addEventListener('click', function(e) {
+            if (e.target === this) closeModal();
+        });
+
+        function toggleEditMode() {
+            isEditing = !isEditing;
+            renderModalContent();
+        }
+
+        // FIX: Funciones de actualización usan saveData(false) para evitar re-renderizar y perder foco
+        function updateDayTitle(val) { 
+            plan.find(d => d.id === currentDayId).title = val; 
+            saveData(false); // Guardar sin re-render
+        }
+        function updateActivity(val) { 
+            plan.find(d => d.id === currentDayId).activity = val; 
+            saveData(false); // Guardar sin re-render
+        }
+        function updateNote(val) { 
+            plan.find(d => d.id === currentDayId).notes = val; 
+            saveData(false); // Guardar sin re-render
+        }
+        function updateTopicText(topicId, val) { 
+            plan.find(d => d.id === currentDayId).topics.find(t => t.id === topicId).text = val; 
+            saveData(false); // Guardar sin re-render
+        }
+        
+        function toggleTopic(topicId) {
+            if (isEditing) return; 
+            const day = plan.find(d => d.id === currentDayId);
+            const topic = day.topics.find(t => t.id === topicId);
+            if (topic) {
+                topic.completed = !topic.completed;
+                saveData(true); // Aquí SI queremos re-renderizar para ver el check verde
+            }
+        }
+
+        function renderModalContent() {
+            if (currentDayId === null) return;
+            const day = plan.find(d => d.id === currentDayId);
+            const container = document.getElementById('modal-content');
+            const completedCount = day.topics.filter(t => t.completed).length;
+
+            // NOTA: Para mantener el valor de los inputs al re-renderizar (si fuera necesario),
+            // usamos value="${...}" que ya está correcto.
+            // Pero como usamos saveData(false) al escribir, esta función NO se llama mientras escribes.
+
+            container.innerHTML = `
+                <!-- Header Modal -->
+                <div class="bg-gradient-to-r ${day.color} p-6 text-white flex justify-between items-start relative overflow-hidden">
+                    <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+                    
+                    <div class="relative z-10 flex-1">
+                        <h3 class="text-xs font-bold uppercase tracking-widest opacity-90 mb-1 text-white/80">${day.day}</h3>
+                        ${isEditing 
+                            ? `<input type="text" value="${day.title}" oninput="updateDayTitle(this.value)" class="text-2xl font-bold bg-white/20 border-b border-white/50 focus:outline-none w-full rounded px-2 py-1 text-white">` 
+                            : `<h2 class="text-3xl font-bold tracking-tight">${day.title}</h2>`
+                        }
+                    </div>
+                    <button onclick="closeModal()" class="relative z-10 bg-white/20 hover:bg-white/30 p-2 rounded-full transition text-white backdrop-blur-sm">
+                        <i data-lucide="x" class="w-5 h-5"></i>
+                    </button>
+                </div>
+
+                <!-- Body Scrollable -->
+                <div class="p-6 overflow-y-auto flex-1 space-y-8 custom-scroll bg-white dark:bg-slate-900">
+                    
+                    <!-- Metas -->
+                    <div>
+                        <div class="flex items-center justify-between mb-4 border-b border-slate-100 dark:border-slate-800 pb-2">
+                            <h4 class="text-lg font-bold text-slate-800 dark:text-white flex items-center gap-2">
+                                <i data-lucide="target" class="w-5 h-5 ${day.textAccent}"></i>
+                                Objetivos Clave
+                            </h4>
+                            <div class="text-xs font-bold px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400">
+                                ${completedCount} / ${day.topics.length}
+                            </div>
+                        </div>
+                        
+                        <div class="space-y-3">
+                            ${day.topics.map(topic => `
+                                <div class="flex items-start gap-3 group p-2 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors cursor-pointer" onclick="toggleTopic('${topic.id}')">
+                                    <div class="mt-0.5 flex-shrink-0 transition-transform duration-200 ${topic.completed ? 'scale-110' : 'scale-100'}">
+                                        ${topic.completed 
+                                            ? `<i data-lucide="check-circle-2" class="w-6 h-6 text-emerald-500 fill-emerald-500/20"></i>` 
+                                            : `<i data-lucide="circle" class="w-6 h-6 text-slate-300 dark:text-slate-600 group-hover:text-indigo-400"></i>`
+                                        }
+                                    </div>
+                                    ${isEditing 
+                                        ? `<input type="text" value="${topic.text}" onclick="event.stopPropagation()" oninput="updateTopicText('${topic.id}', this.value)" class="flex-1 bg-transparent border-b border-slate-200 dark:border-slate-700 focus:border-indigo-500 focus:outline-none text-slate-700 dark:text-slate-200">` 
+                                        : `<span class="flex-1 text-slate-700 dark:text-slate-300 leading-snug pt-0.5 transition-all ${topic.completed ? 'line-through opacity-50 text-slate-400' : ''}">${topic.text}</span>`
+                                    }
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <!-- Actividad -->
+                    <div class="${day.bgAccent} rounded-xl p-5 border ${isEditing ? 'border-dashed border-2 border-indigo-300' : 'border-transparent'}">
+                        <h4 class="text-sm font-bold ${day.textAccent} uppercase tracking-wide mb-2 flex items-center gap-2">
+                            <i data-lucide="zap" class="w-4 h-4"></i>
+                            Misión Práctica
+                        </h4>
+                        ${isEditing 
+                            ? `<textarea onclick="event.stopPropagation()" oninput="updateActivity(this.value)" class="w-full bg-white/50 dark:bg-slate-800/50 rounded p-2 text-slate-700 dark:text-slate-200 text-sm focus:outline-none resize-none" rows="3">${day.activity}</textarea>`
+                            : `<p class="text-slate-700 dark:text-slate-300 text-sm leading-relaxed font-medium">${day.activity}</p>`
+                        }
+                    </div>
+
+                    <!-- Notas -->
+                    <div>
+                        <h4 class="text-lg font-bold text-slate-800 dark:text-white mb-3 flex items-center gap-2">
+                            <i data-lucide="sticky-note" class="w-5 h-5 text-amber-500"></i>
+                            Notas Personales
+                        </h4>
+                        <textarea 
+                            oninput="updateNote(this.value)" 
+                            placeholder="Escribe aquí fórmulas, dudas o recordatorios..."
+                            class="w-full h-32 p-4 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-slate-700 dark:text-slate-300 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 focus:outline-none resize-none shadow-inner text-sm font-mono"
+                        >${day.notes}</textarea>
+                    </div>
+                </div>
+
+                <!-- Footer Controls -->
+                <div class="p-4 border-t border-slate-100 dark:border-slate-800 flex justify-between items-center bg-slate-50/50 dark:bg-slate-900/50 backdrop-blur">
+                     <button onclick="toggleEditMode()" class="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition ${isEditing ? 'bg-indigo-600 text-white shadow-md shadow-indigo-500/30' : 'text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-800'}">
+                        ${isEditing 
+                            ? '<i data-lucide="save" class="w-4 h-4"></i> Guardar' 
+                            : '<i data-lucide="edit-3" class="w-4 h-4"></i> Editar'
+                        }
+                     </button>
+                     <button onclick="closeModal()" class="text-slate-500 dark:text-slate-400 text-sm font-medium hover:text-slate-800 dark:hover:text-white transition px-4">
+                       Cerrar
+                     </button>
+                </div>
+            `;
+            
+            lucide.createIcons();
+        }
+
+        window.onload = loadData;
+    </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
